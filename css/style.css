@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* clerksy */
+html, 
+body {
+    font-family: sans-serif;
+}
+
+a {
+    color: #FBFAF7;
+    text-decoration: none;
+}
+
+#navbar {
+    background-color: #163A24;
+}
+
+.clerksy-button {
+    background-color: #198C36;
+    padding: 10px 15px;
+    border-radius: 160px;
+}
