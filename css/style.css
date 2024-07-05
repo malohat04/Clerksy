@@ -1,202 +1,388 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* clerksy */
 html,
 body {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 header {
-    background-color: #163A24;
+  background-color: #163A24;
 
 }
 
 a {
-    color: #FBFAF7;
-    text-decoration: none;
+  color: #FBFAF7;
+  text-decoration: none;
 }
 
 #navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
 }
 
 .clerksy-header {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
 }
 
 .clerksy-button {
-    background-color: #198C36;
-    padding: 10px 15px;
-    border-radius: 160px;
-    border: none;
-    font-family: Noto Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 21.79px;
-    color: #fff;
-    cursor: pointer;
+  background-color: #198C36;
+  padding: 10px 15px;
+  border-radius: 160px;
+  border: none;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  color: #fff;
+  cursor: pointer;
 }
 
 .container {
-    width: 1220px;
-    padding: 0 20px;
-    margin: 0 auto;
+  width: 1220px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 .clerksy-frame {
-    width: 738px;
-    height: 580px;
-    justify-content: flex-end;
+  width: 738px;
+  height: 580px;
+  justify-content: flex-end;
 }
 
 .list__item {
-    color: #fff;
+  color: #fff;
 }
 
 .navbar__list {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    gap: 24px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 24px;
 }
 
 .banner {
-    color: #FBFAF7;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  color: #FBFAF7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .banner__desc {
-    width: 393.33px;
-    height: 200px;
-    top: 111.44px;
-    left: 98.34px;
-    padding: 0px 13.67px 17.05px 0px;
+  width: 393.33px;
+  height: 200px;
+  top: 111.44px;
+  left: 98.34px;
+  padding: 0px 13.67px 17.05px 0px;
 
 }
 
 .banner__desc p {
-    margin: 27px 0;
+  margin: 27px 0;
 }
 
 .banner__img {
-    margin-right: -100px;
+  margin-right: -100px;
 }
 
 .banner-2 {
-    color: #163A24;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  color: #163A24;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .banner-text__text {
-    font-family: Recoleta;
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 54px;
-    text-align: center;
-    margin: 120px 0;
+  font-family: 'Recoleta';
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: center;
+  margin: 120px 0;
 }
 
 .text-1 {
-    display: flex;
-    font-family: Recoleta;
-    font-size: 48px;
-    flex-wrap: wrap;
+  display: flex;
+  font-family: 'Recoleta';
+  font-size: 48px;
+  flex-wrap: wrap;
 }
 
 .text-2 {
-    font-family: Recoleta;
-    font-size: 48px;
-    flex-wrap: wrap;
-    color: #163A24;
+  font-family: 'Recoleta';
+  font-size: 48px;
+  flex-wrap: wrap;
+  color: #163A24;
 }
+
 .banner-text {
-    text-align: center;
+  text-align: center;
 }
 
 .banner-icon {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
 }
 
 .production__info {
-    background-color: #163A24;
-    color: #FBFAF7;
+  background-color: #163A24;
+  color: #FBFAF7;
 }
 
 .clerksy-footer {
-    align-items: center;
+  align-items: center;
 }
 
 .production__info {
-    padding-top: 60px;
-    padding-bottom: 120px;
+  padding-top: 60px;
+  padding-bottom: 120px;
 }
 
-
 .production__title {
-    text-align: center;
-    font-family: Recoleta;
-    font-size: 48px;
-    flex-wrap: wrap;
+  text-align: center;
+  font-family: 'Recoleta';
+  font-size: 48px;
+  flex-wrap: wrap;
 }
 
 .production__images {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 74px;
-    text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 74px;
+  text-align: center;
 }
 
 .img {
-    margin-top: 25px;
-    line-height: 30px;
+  margin-top: 25px;
+  line-height: 30px;
 }
 
 .Employees {
-    margin: auto;
-    width: 786.66px;
-    height: 200px;
-    text-align: center;
+  margin: auto;
+  width: 786.66px;
+  height: 200px;
+  text-align: center;
 }
 
 .Employees p {
-    margin-top: 30px;
-    text-align: center;
+  margin-top: 30px;
+  text-align: center;
 }
 
 .Employees-con {
-    padding: 120px 0;
+  padding: 120px 0;
 }
 
 .Employees-container {
-    background-color: #F2EFE6;
+  background-color: #F2EFE6;
 }
 
 .How {
-    margin-top: 150px;
-    margin-bottom: 120px;
+  margin-top: 150px;
+  margin-bottom: 120px;
 }
 
 .Consider {
-    text-align: center;
+  text-align: center;
 }
 
 .Consider p {
-    color: #163A24;
-    margin-top: 30px;
+  color: #163A24;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.Compliance {
+  display: flex;
+  justify-content: space-between;
+  color: #163A24;
+  padding-bottom: 120px;
+}
+
+.Company {
+  width: 353px;
+  flex-wrap: wrap;
+  font-family: 'Recoleta';
+  padding: 40px 66px;
+  line-height: 30px;
+  box-shadow: 5px 5px 20px 0px #E9E4D5;
+  border-radius: 15px;
+  height: 393px;
+  background-color: #FBFAF7;
+}
+
+.Company:nth-child(2) {
+  height: 430px;
+}
+
+.Company h1 {
+  padding: 23px 0;
+}
+
+.business {
+  text-align: center;
+  color: #163A24;
+  padding: 120px 0;
+}
+
+.business p {
+  margin-top: 26px;
+}
+
+.minutes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Fill {
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 0;
+}
+
+.form {
+  width: 262px;
+  height: 141px;
+}
+
+.form h1 {
+  width: 262.2px;
+  height: 141px;
+  padding: 19.17px 1.22px 22.83px 0.98px;
+  font-family: 'Recoleta';
+}
+
+.strelka {
+  padding: 53px 28px;
+}
+
+button {
+  background-color: #198C36;
+  padding: 15px 25px;
+  border-radius: 160px;
+  border: none;
+  color: #FBFAF7;
+  cursor: pointer;
+}
+
+.first {
+  background-color: #163A24;
+  position: relative;
+  overflow: hidden;
+}
+
+.Started {
+  padding: 114px 0;
+  text-align: center;
+  color: #FBFAF7;
+  font-family: 'Recoleta';
+}
+
+.Started::after {
+  content: url("../img/Frame (6).png");
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  left: 0;
+  top: 10px;
+}
+
+.Started::before {
+  content: url("../img/Frame (7).png");
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  right: 0;
+  top: 10px;
+}
+
+.Started h1 {
+  font-size: 48px;
+  flex-wrap: wrap;
+}
+
+.Started p {
+  margin-top: 26px;
+}
+
+.book {
+  margin-top: 16px;
+  color: #163A24;
+  background-color: #FAB5A0;
+}
+
+.Fill {
+  position: relative;
+}
+
+.Fill:nth-child(1)::after {
+  content: url("../img/strelka.png");
+  position: absolute;
+  right: -160px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Fill:nth-child(2)::after {
+  content: url("../img/strelka-1.png");
+  position: absolute;
+  right: -160px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Fill:nth-child(3)::after {
+  content: url("../img/Vector.png");
+  position: absolute;
+  right: -160px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Sign {
+  color: #163A24;
+  display: flex;
+  justify-content: space-between;
+  padding: 54px 0;
+  background-color: #F2EFE6;
+}
+
+.latest p {
+   margin-top: 26;
+   width: 590px;
+   height: 119px;
+}
+
+.receive {
+  width: 590px;
+  height: 120px;
+}
+
+.our {
+  color: #198C36;
+}
+
+.sign__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sign-up__action {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #fff;
+  border-radius: 255px;
+  margin-bottom: 15px;
+  
 }
