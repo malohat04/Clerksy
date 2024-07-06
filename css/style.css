@@ -357,10 +357,13 @@ button {
   background-color: #F2EFE6;
 }
 
+.latest {
+  width: 590px;
+  height: 119px;
+}
+
 .latest p {
-   margin-top: 26;
-   width: 590px;
-   height: 119px;
+   margin-top: 26px;
 }
 
 .receive {
@@ -384,5 +387,41 @@ button {
   background-color: #fff;
   border-radius: 255px;
   margin-bottom: 15px;
-  
+}
+
+.people {
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 0;
+  align-items: center;
+}
+
+.people h2 {
+  font-family: 'Recoleta';
+  color: #163A24;
+  text-align: center;
+} 
+
+.images {
+  display: flex;
+  gap: 15px;
+}
+
+footer hr {
+  border: 1px solid #F2EFE6;
+  color: #F2EFE6;
+}
+
+.registered {
+  display: flex;
+  justify-content: space-between;
+  color: #163A24;
+  padding: 14px 0;
+}
+
+.Service {
+  display: flex;
+  gap: 15px;
+  color: #198C36;
+  list-style: none;
 }
